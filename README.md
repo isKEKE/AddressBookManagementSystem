@@ -16,6 +16,10 @@
 - 清空联系人：清空通讯录中所有信息
 - 退出通讯录：退出当前使用的通讯录
 
+## 二、版本
+
+#### 01.C++版本
+
 ``` c++
 // 主文件：./code/utils.cpp
 /* 
@@ -24,5 +28,31 @@
      因作者之前已经学过Python，所以作者是根据自己理解进行编写，内容可能有
      些出入，但逻辑思路不变。
 */
+​```
 ```
+
+#### 02.Python版本
+
+``` python
+# 主文件: ./__main__.py
+# 环境：Python3.8+、MySQL5.5+
+# 内置库：
+# 第三方库：
+'''
+说明：
+	（1）请在运行系统之前先保证`环境`和`第三方库`配置好；
+	（2）请先在运行脚本前先通过dos界面进入MySQL中创建对表，代码如下: `address_book.sql`；
+	（3）请先修改配置文件`.\config\settings.py`中数据库相关配置参数。
+	完成以上2个步骤再运行主文件。
+'''
+```
+
+```mysql
+# DOS中SQL语句
+mysql -h Host -P Port -uUsername -pPassword; # 
+use `databaseName`;
+scorce ".\db\address_book.sql"
+```
+
+
 
