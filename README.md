@@ -33,7 +33,7 @@
 #### 02.Python版本
 
 ``` python
-# 主文件: ./__main__.py
+# 主文件: ./PythonVersion/__main__.py
 # 环境：Python3.8+、MySQL5.5+
 # 内置库：
 # 第三方库：
@@ -41,7 +41,7 @@
 说明：
 	（1）请在运行系统之前先保证`环境`和`第三方库`配置好；
 	（2）请先在运行脚本前先通过dos界面进入MySQL中创建对表，代码如下: `address_book.sql`；
-	（3）请先修改配置文件`.\config\settings.py`中数据库相关配置参数。
+	（3）请先修改配置文件`./PythonVersion/config/ettings.py`中数据库相关配置参数。
 	完成以上2个步骤再运行主文件。
 '''
 ```
@@ -50,7 +50,7 @@
 # DOS中SQL语句
 mysql -h Host -P Port -uUsername -pPassword; # 
 use `databaseName`;
-scorce ".\db\address_book.sql"
+scorce "./PythonVersion/db/address_book.sql"
 ```
 
 
