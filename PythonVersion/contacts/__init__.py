@@ -1,0 +1,1 @@
+from contacts.oper import ContactPersonOperation
